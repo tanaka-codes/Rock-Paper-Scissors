@@ -1,9 +1,9 @@
 import random
 
-user = input("Enter a choice (rock, paper, scissors): ")
+user = input("Enter an option (rock, paper, scissors): ")
 choices = ["rock", "paper", "scissors"]
 computer_action = random.choice(choices)
-print(f"\nYou chose {user}, computer chose {computer_action}.\n")
+print(f"\nYou choose {user}, computer chose {computer_action}.\n")
 
 if user == computer_action:
     print(f"Both players selected {user}. Draw!")
